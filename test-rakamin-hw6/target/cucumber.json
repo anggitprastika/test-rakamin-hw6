@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-10-21T16:11:39.903Z",
+        "line": 2,
+        "name": "Successful Login",
+        "description": "",
+        "id": "login;successful-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2017364100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I open browser",
+            "match": {
+              "location": "StepDef.Login.iOpenBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3070161700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open website saucedemo",
+            "match": {
+              "location": "StepDef.Login.openWebsiteSaucedemo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61163400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Located on saucedemo website",
+            "match": {
+              "location": "StepDef.Login.locatedOnSaucedemoWebsite()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108289500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I input valid username",
+            "match": {
+              "location": "StepDef.Login.iInputValidUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 214569300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I input valid password",
+            "match": {
+              "location": "StepDef.Login.iInputValidPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2975478500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I go to homepage",
+            "match": {
+              "location": "StepDef.Login.iGoToHomepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
